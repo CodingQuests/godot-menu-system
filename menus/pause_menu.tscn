@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dls78ncnrklf2"]
+
+[ext_resource type="Script" uid="uid://cqqht2ro4uvuw" path="res://menus/pause_menu.gd" id="1_script"]
+[ext_resource type="PackedScene" uid="uid://cepbf5pedb7bv" path="res://menus/options_menu.tscn" id="2_options"]
+[ext_resource type="Theme" uid="uid://b4c64xd03ix5l" path="res://menus/menu_theme.tres" id="9_theme"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 3
+layer = 100
+script = ExtResource("1_script")
+menu_theme = ExtResource("9_theme")
+
+[node name="OptionsMenu" parent="." instance=ExtResource("2_options")]

@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://718wao3w87kg"]
+
+[ext_resource type="Script" uid="uid://cvk8itwghqt1i" path="res://menus/main_menu.gd" id="1_script"]
+[ext_resource type="Script" uid="uid://duw4obttt52rh" path="res://demo/backdrop.gd" id="2_backdrop"]
+[ext_resource type="Texture2D" uid="uid://c4mxfjpbmt53v" path="res://assets/kenney_pixel-platformer/Tiles/Characters/tile_0000.png" id="3_hero"]
+[ext_resource type="PackedScene" uid="uid://cepbf5pedb7bv" path="res://menus/options_menu.tscn" id="4_options"]
+[ext_resource type="Theme" uid="uid://b4c64xd03ix5l" path="res://menus/menu_theme.tres" id="9_theme"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("9_theme")
+script = ExtResource("1_script")
+title = "MY GAME"
+
+[node name="Background" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("2_backdrop")
+
+[node name="Hero" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 96.0
+offset_top = -108.0
+offset_right = 132.0
+offset_bottom = -72.0
+grow_vertical = 0
+mouse_filter = 2
+texture = ExtResource("3_hero")
+expand_mode = 1
+
+[node name="OptionsMenu" parent="." instance=ExtResource("4_options")]
+layout_mode = 1

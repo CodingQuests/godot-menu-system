@@ -1,0 +1,14 @@
+Pixel Operator 8 (PixelOperator8.ttf, PixelOperator8-Bold.ttf)
+Version 2018.10.04-1
+
+By Jayvee Enaguas (HarvettFox96)
+License: Creative Commons Zero (CC0) 1.0
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The license is stated in the font files themselves. Their copyright notice
+reads:
+
+  Released by Jayvee Enaguas (HarvettFox96), licensed under a Creative Commons
+  Zero (CC0) 1.0 <https://creativecommons.org/licenses/zero/1.0/>. (c) 2009-2018.
+
+Source: https://www.dafont.com/pixel-operator.font
