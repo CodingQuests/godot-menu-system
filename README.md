@@ -223,4 +223,15 @@ with interactive lessons and real projects.
   menu, options and pause, including the three volume sliders. The first lesson
   is free.
 
+## More Free Godot Resources from CodingQuests
+
+Other free, MIT-licensed Godot 4 projects that work well next to this one:
+
+- **[Save System](https://github.com/CodingQuests/godot-save-system)**: Save slots where picked-up items stay picked up and opened chests stay open.
+- **[Platformer Controller](https://github.com/CodingQuests/godot-platformer-controller)**: Coyote time, jump buffering, variable jump height, double jump, air dash and wall jump.
+- **[Multiplayer Starter](https://github.com/CodingQuests/godot-multiplayer-starter)**: Online co-op with a ready-up lobby, chat and server-checked movement that still feels instant.
+- **[Inventory System](https://github.com/CodingQuests/godot-inventory-system)**: A slot inventory with stacking, drag and drop, tooltips, item use and save data.
+
+All twelve are listed on the [CodingQuests GitHub profile](https://github.com/CodingQuests).
+
 Made by [CodingQuests](https://codingquests.io/?utm_source=github&utm_medium=resource&utm_campaign=godot_menu_system).
